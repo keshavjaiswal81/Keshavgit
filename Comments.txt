@@ -1,0 +1,182 @@
+
+Live Audio and Video with screenshare
+
+Live Audio
+
+Forums and Forums Basic/Lite
+
+OD
+-------------------------------
+
+Broadcast Webcast
+
+Simu-Live
+
+7089529446
+
+======================================================
+
+PORTAL-67384:Ehub: Embedded Console (Admin)
+Verified issue:01
+PORTAL-69186:Ehub:>>Overview page>> Embedded Console options>>'Embedded Console' options are blinking when the user tries to enable or disable the Landing Page toggle: Fixed
+------------------------------------
+
+Tested url's
+
+Live with screenshare & caption on
+https://gatewayqa.on24.com/wcc/eh/82084837/lp/84039882/kj_live-caption
+
+Simulive
+https://gatewayqa.on24.com/wcc/eh/82084837/lp/84039506/kj_simulive-129 ( 3:PM)
+
+Sim2live
+https://gatewayqa.on24.com/wcc/eh/82084837/lp/84039540/sim-2-live-video-to-audio-1209 (3:30PM)
+
+Forum (Open always in a new tab this is expected for 2.0 and 1.0 console)
+https://gatewayqa.on24.com/wcc/eh/82084837/lp/84039695/kj_forum-129
+
+
+
+============================================================================
+
+
+
+
+Hi Yan,
+Today we have performed Functional Testing for Ehub: Embedded Console (Audience)
+
+Tested client
+keshav2023admin/Password1
+
+Tested configuration
+Win-11: CH-128,FF-130beta,MS Edge-129
+
+Mobile lamdatest
+iPhone 15 Pro 17 Safari
+iPad Pro 13 Safari 17
+
+Tested url's
+Live with screenshare & caption on
+https://gatewayqa.on24.com/wcc/eh/82084837/lp/84039882/kj_live-caption
+
+Simulive
+https://gatewayqa.on24.com/wcc/eh/82084837/lp/84039506/kj_simulive-129 ( 3:PM)
+
+Sim2live
+https://gatewayqa.on24.com/wcc/eh/82084837/lp/84039540/sim-2-live-video-to-audio-1209 (3:30PM)
+
+Forum (Open always in a new tab this is expected for 2.0 and 1.0 console)
+https://gatewayqa.on24.com/wcc/eh/82084837/lp/84039695/kj_forum-129
+
+
+
+
+Covered Scenarios for Embedded Console
+Console 2.0:
+
+Verify Embedded Console 2.0 for D2c url:Pass
+Verify Full screen icon in 2.0 :PORTAL-69222
+Verify Slide area,Media player in 2.0 console:Pass
+Verify Ratings and comments are appearing behind the slide area in Embedded Console 2.0:Pass with (PORTAL-69229)
+Verify The branding logo in media player in Embedded Console 2.0 for MS Edge browser:Pass with(PORTAL-69230)
+Verify The vertical scrollbar is appearing in Embedded Console 2.0:Pass with PORTAL-69231
+
+Desktop:
+Webcast plays in the embedded console (React console) on the landing page for both WhiteLabel and non-WhiteLabel versions.
+Console functionality tested:
+Verified slide upload on the audience side for Embed Console 2.0:Pass
+Verified live streaming on the audience side for Embed Console 2.0:Pass
+Play/Pause functionality for Embed Console 2.0 on the audience side :Pass
+Branding logo display on the audience side for Embed Console 2.0:Pass
+Fullscreen option for slides on the audience side :Pass
+Mute/Unmute functionality for slides on the audience side :Pass
+Media Player Maximize/Minimize options for slides on the audience side :Pass
+
+Mobile Devices:
+Webcast plays in the MobileX view :Pass
+
+Smoke test: Console UI and functionality with widgets open  :Pass
+
+Console 1.0:
+Webcast plays in the MobileX console view on the landing page for both desktop and mobile  :Pass
+
+
+Known issue:03
+PORTAL-69229:Embedded Console 2.0 >> Ratings and comments are appearing behind the slide area in Embedded Console 2.0
+PORTAL-69230:Embedded Console 2.0 >>The branding logo is overlapping the media player in Embedded Console 2.0 for MS Edge browser
+PORTAL-69261:(Query) LP- Embedded Console 2.0 is not appearing instead webcast opens in the 'Mobilex' view when Ehub is set as a White Label domain & Content as a non-White Label domain (ON24) from Settings.
+
+Thanks,
+Keshav
+
+
+
+
+
+
+There is a known issue for 'ON24admin' login about missing Autocorrect tab on account dashboard
+ 
+EER-31143 Query (Not In AC)Functional:Autocorrect:For on24admin login type 'Autocorrect' tab is not displaying in the left-nav on Account Dashboard page
+ 
+EER-31162 Functional:Go-live/Contributor/Forums login:Autocorrect tab is not displaying for Go-live,Contributor and Forums Logins
+EER-31217 CLONE - [Critical] Top Navigation>>Platform Tools Dropdown Menu>> 'Transcription Autocorrect' is showing on Top Nav for Go-Live login type but user sees blank page on navigation and gets logged out on page refresh
+
+
+Hi Mohit,
+ 
+Weekly Status from 05/09/2024 to 12/09/2024
+
+PORTAL-67384:Ehub: Embedded Console (Admin)(75% execution completed)
+PORTAL-68708:Ehub: Embedded Console (Audience)(60% execution completed)
+PORTAL-68703 Transcription Autocorrect in Top Nav Bar(60% execution completed)
+PORTAL-68758:Japanese Localization(80% execution completed)
+
+Note: Due to this blocker issue(PORTAL-69203), we were unable to perform testing for one day admin and audience story PORTAL-69203:[QA only]Ehub:>>Overview page>> Embedded Console options>>'Enable Landing Page viewing for Webinars and PDFs' and 'Embedded Console options' are not showing in overview page even “Ehub: Embedded Console” flag is ON from EM
+
+Thanks,
+Keshav
+
+
+Common task mail Nikhil, Keshav and Yadav
+
+Hi,        
+Below are the orion task performed today
+
+PORTAL-67384:Ehub: Embedded Console (Admin)(No issue reported)
+Verified issue:01
+PORTAL-69186:Ehub:>>Overview page>> Embedded Console options>>'Embedded Console' options are blinking when the user tries to enable or disable the Landing Page toggle: Fixed
+PORTAL-68708:Ehub: Embedded Console (Audience)((No issue reported)
+PORTAL-68703 Transcription Autocorrect in Top Nav Bar((No issue reported)
+PORTAL-68758:Japanese Localization((No issue reported)
+
+Thanks,
+Keshav
+
+
+
+Hi,        
+Below are the orion task performed today
+
+Nikhil & Keshav
+PORTAL-70565:New thumbnails for other content types & podcasts:(Reported issue:01)
+PORTAL-71058:Ehub/Nurture/Target Audience>>Document>>Default thumbnail of the Document is not displaying on Ehub, Nurture, or Target Audience
+
+PORTAL-70657:QA Only - EHub Legacy Layouts Admin Framework / UI Migration:(No issue reported)
+
+Thanks,
+Keshav
+
+
+Hi Jenny,
+We have continued exploring AI tool 'Claude and codex' for QA capabilities. Gone through Claude 101  and learned about:
+
+Explored Claude features
+Reviewed connectors configuration
+Creating artifacts
+Expanding Claudes reach using three modes in the Claude desktop app — Chat, Cowork, and Code
+Connecting the tool
+
+Thanks
+
+
+
